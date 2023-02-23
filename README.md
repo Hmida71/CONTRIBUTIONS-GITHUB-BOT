@@ -15,8 +15,8 @@ The project uses [OS(module)-python](https://docs.python.org/3/library/os.html),
 Clone and fork the repository to make the changes in your local system.
 
 ```git-bash
-git clone https://github.com/utsanjan/Github-Contribution-Bot
-cd Github-Contribution-Bot
+git clone https://github.com/yourUsername/yourRepo
+cd yourRepo
 ```
 
 Finally, run the project to see .
