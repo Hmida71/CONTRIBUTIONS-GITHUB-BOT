@@ -19,7 +19,7 @@ git clone https://github.com/utsanjan/Github-Contribution-Bot
 cd Github-Contribution-Bot
 ```
 
-Finally, run the project to see what the moment package does.
+Finally, run the project to see .
 
 ```python
 python main.py
