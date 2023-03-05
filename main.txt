@@ -1,0 +1,18 @@
+import os , random
+
+# GITHUB ===> Hmida71 Web ==> Hmida71.me 
+# plz don't forget to change this file to main.py !!!!!!!!!!!!!!!
+
+for i in range(800):
+    # Your random : month , days
+    rand_month = random.randrange(1, 12)
+    rand_days = random.randrange(1, 28)
+    with open('empty.txt','a') as file:
+        file.write(' '+'\t')
+    os.system('git add empty.txt')
+    os.system('git commit --date=" 2023-'+str(rand_month)+'-'+str(rand_days)+'" -m 1')
+os.system('git push -u origin main --force ')
+
+#git commit --amend --no-edit --date="Fri Feb 23 13:05:00 2023 -0600" 
+#git fetch origin master
+#git rebase origin/master
